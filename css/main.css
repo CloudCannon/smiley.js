@@ -1,0 +1,360 @@
+html{
+font-size:13px;
+font-family:'The Girl Next Door', "segoe ui",HelveticaNeue,verdana,arial,sans-serif;
+}
+body, html{
+margin:0;
+padding:0;
+}
+.clearfix:before, 
+.clearfix:after{
+content:" ";
+display:table;
+}
+.clearfix:after{
+clear:both;
+}
+.clearfix{
+*zoom:1;
+}
+.tip{
+border:4px dashed #C9C9C9;
+padding:20px;
+}
+@-webkit-keyframes fadeIn{
+0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn{
+0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeInDown{
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown{
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes fadeInUp{
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp{
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.animate, .show-on-scroll.visible{
+/*animation-delay*/
+-webkit-animation-delay:120ms;
+   -moz-animation-delay:120ms;
+    -ms-animation-delay:120ms;
+     -o-animation-delay:120ms;
+        animation-delay:120ms;
+/*animation-duration*/
+-webkit-animation-duration:1s;
+   -moz-animation-duration:1s;
+    -ms-animation-duration:1s;
+     -o-animation-duration:1s;
+        animation-duration:1s;
+-webkit-animation-fill-mode:both;
+animation-fill-mode:both;
+}
+.fadeIn, .show-on-scroll.visible{
+/*animation-name*/
+-webkit-animation-name:fadeIn;
+   -moz-animation-name:fadeIn;
+    -ms-animation-name:fadeIn;
+     -o-animation-name:fadeIn;
+        animation-name:fadeIn;
+}
+.fadeInDown{
+/*animation-name*/
+-webkit-animation-name:fadeInDown;
+   -moz-animation-name:fadeInDown;
+    -ms-animation-name:fadeInDown;
+     -o-animation-name:fadeInDown;
+        animation-name:fadeInDown;
+}
+.fadeInUp{
+/*animation-name*/
+-webkit-animation-name:fadeInUp;
+   -moz-animation-name:fadeInUp;
+    -ms-animation-name:fadeInUp;
+     -o-animation-name:fadeInUp;
+        animation-name:fadeInUp;
+}
+.animateLate{
+/*animation-delay*/
+-webkit-animation-delay:800ms;
+   -moz-animation-delay:800ms;
+    -ms-animation-delay:800ms;
+     -o-animation-delay:800ms;
+        animation-delay:800ms;
+}
+
+.show-on-scroll{
+opacity:0;
+}
+header{
+background:#f2f2f2;
+height:520px;
+}
+footer{
+background:#eee;
+}
+footer h1{
+white-space:nowrap;
+}
+section{
+margin:0 auto;
+width:95%;
+max-width:700px;
+text-align:center;
+padding:40px 0;
+}
+ol, ul{
+text-align:left;
+}
+.install:before,
+.install:after{
+content:"";
+display:table;
+}
+.install:after{
+clear:both;
+}
+.install{
+zoom:1;
+/* For IE 6/7 (trigger hasLayout) */
+margin:0;
+padding:0;
+list-style:none;
+}
+.install li{
+float:left;
+width:46%;
+}
+.install li + li{
+margin-left:8%;
+}
+h1{
+margin:0;
+font-size:4em;
+line-height:96px;
+height:96px;
+}
+h2{
+font-size:2.3em;
+}
+.tagline{
+font-size:2.2em;
+line-height:35px;
+height:70px;
+}
+
+.tagline a {
+  display: block;
+  font-size: 0.9em;
+}
+section p{
+font-size:1.55em;
+line-height:2;
+color:#444;
+font-family:"segoe ui",HelveticaNeue,verdana,arial,sans-serif;
+}
+header p{
+font-size:1.7em;
+color:#444;
+}
+nav .button{
+margin:0 20px;
+width:30%;
+padding-left:0;
+padding-right:0;
+}
+#header-smile{
+margin:0;
+font-size:8em;
+}
+#header-smile .smiley.active{
+left:8px;
+}
+.smiley-list, .smiley-list li{
+margin:0;
+padding:0;
+list-style:none;
+text-align:center;
+}
+.smiley-list li{
+/*transition*/
+-webkit-transition:color 0.2s ease;
+   -moz-transition:color 0.2s ease;
+     -o-transition:color 0.2s ease;
+        transition:color 0.2s ease;
+margin:10px 0;
+display:inline-block;
+width:25%;
+color:#666;
+}
+.smiley-list li:hover{
+color:#000;
+}
+.smiley-list .smiley{
+font-size:3.5em;
+}
+.cc{
+position:relative;
+top:15px;
+line-height:0;
+}
+.cc img{
+width:100px;
+border:0;
+}
+a{
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+input[type="submit"], .btn, a.btn{
+font-family:"segoe ui",HelveticaNeue,verdana,arial,sans-serif;
+display:block;
+padding:12px;
+color:#fff;
+text-align:center;
+cursor:pointer;
+background-color:#006dcc;
+border:1px solid #0044cc;
+border-bottom:2px solid #133881;
+/*border-radius*/
+-webkit-border-radius:2px;
+   -moz-border-radius:2px;
+        border-radius:2px;
+max-width:400px;
+margin:20px auto 0;
+text-decoration:none;
+}
+input[type="submit"]:hover, .btn:hover{
+text-decoration:none;
+background-color:#04C;
+}
+input[type="submit"]:active, .btn:active{
+color:#ccc;
+background-color:#039;
+border-bottom:1px solid #0044cc;
+border-top:2px solid #133881;
+}
+input[type="submit"].secondary, .btn.secondary,
+input[type="submit"].secondary:active, .btn.secondary:active{
+border-color:#C5C5C5;
+color:#333;
+background-color:#F5F5F5;
+border-bottom-color:#bbb;
+}
+input[type="submit"].secondary:hover, .btn.secondary:hover{
+background-color:#F0F0F0;
+}
+input[type="submit"].secondary:active, .btn.secondary:active{
+background-color:#eee;
+border-top-color:#bbb;
+border-bottom-color:#C5C5C5;
+}
+.blog-shares{
+margin:0 auto 20px;
+display:inline-block;
+}
+.blog-shares span,
+.blog-shares a{
+height:51px;
+line-height:60px;
+display:block;
+float:left;
+font-size:2em;
+}
+.blog-shares a{
+display:block;
+width:40px;
+overflow:hidden;
+text-indent:40px;
+background-repeat:no-repeat;
+background-position:center;
+opacity:0.5;
+margin:0 0 0 10px;
+}
+.blog-shares a:hover{
+opacity:0.7;
+}
+.blog-shares a:active{
+opacity:0.9;
+}
+footer .blog-shares{
+margin-top:30px;
+}
+.twitter{
+background-image:url(../img/twitter-black.png);
+}
+.facebook{
+background-image:url(../img/facebook-black.png);
+}
+@media only screen and (max-width: 400px){
+.oneliner-header{
+font-size:2.9em;
+}
+.cc{
+top:10px;
+}
+.cc img{
+width:66px;
+}
+}
+@media only screen and (max-width: 503px){
+header{
+height:601px;
+}
+header .tagline{
+height:106px;
+}
+}
